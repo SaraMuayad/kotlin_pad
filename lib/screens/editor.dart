@@ -21,7 +21,7 @@ class _EditorState extends State<Editor> {
   @override
   void initState() {
     super.initState();
-    var source = "fun main() {\n  println(\"wlecome\") \n}";
+    var source = "fun main() {\n  println(\"Hello World!\") \n}";
 
     _codeController = CodeController(
       text: source,
@@ -68,6 +68,7 @@ class _EditorState extends State<Editor> {
         "when": const TextStyle(color: Color(0xffff916d)),
         "break": const TextStyle(color: Color(0xffff916d)),
         "arrayOf": const TextStyle(color: Color(0xffff916d)),
+        "get": const TextStyle(color: Color(0xffff916d)),
         "continue": const TextStyle(color: Color(0xffff916d)),
         "size": const TextStyle(color: Color(0xffff916d)),
         "class": const TextStyle(color: Color(0xffff916d)),
